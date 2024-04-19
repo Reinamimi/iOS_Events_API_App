@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0418D1402BC9784D0040F3FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418D13F2BC9784D0040F3FB /* AppDelegate.swift */; };
+		0418D1422BC9784D0040F3FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418D1412BC9784D0040F3FB /* SceneDelegate.swift */; };
+		0418D1442BC9784D0040F3FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418D1432BC9784D0040F3FB /* ViewController.swift */; };
+		0418D1472BC9784D0040F3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0418D1452BC9784D0040F3FB /* Main.storyboard */; };
+		0418D1492BC9784F0040F3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0418D1482BC9784F0040F3FB /* Assets.xcassets */; };
+		0418D14C2BC9784F0040F3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0418D14A2BC9784F0040F3FB /* LaunchScreen.storyboard */; };
+		0418D1542BC97C570040F3FB /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418D1532BC97C570040F3FB /* NetworkingService.swift */; };
+		0418D1562BC97CB00040F3FB /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0418D1552BC97CB00040F3FB /* EventModel.swift */; };
+		04F601982BD19F1200C51D9D /* BrowseEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F601972BD19F1200C51D9D /* BrowseEventsViewController.swift */; };
+		04F6019A2BD1D87200C51D9D /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F601992BD1D87200C51D9D /* EventDetailViewController.swift */; };
+		04F6019C2BD1F1BE00C51D9D /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6019B2BD1F1BE00C51D9D /* FavoritesManager.swift */; };
+		04F6019E2BD1F4A300C51D9D /* MyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6019D2BD1F4A300C51D9D /* MyListViewController.swift */; };
+		04F601A02BD1F63000C51D9D /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6019F2BD1F63000C51D9D /* FavoritesTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0418D13C2BC9784D0040F3FB /* CanadaEventsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanadaEventsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0418D13F2BC9784D0040F3FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0418D1412BC9784D0040F3FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0418D1432BC9784D0040F3FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0418D1462BC9784D0040F3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0418D1482BC9784F0040F3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0418D14B2BC9784F0040F3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0418D14D2BC9784F0040F3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0418D1532BC97C570040F3FB /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		0418D1552BC97CB00040F3FB /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		04F601972BD19F1200C51D9D /* BrowseEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseEventsViewController.swift; sourceTree = "<group>"; };
+		04F601992BD1D87200C51D9D /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		04F6019B2BD1F1BE00C51D9D /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		04F6019D2BD1F4A300C51D9D /* MyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewController.swift; sourceTree = "<group>"; };
+		04F6019F2BD1F63000C51D9D /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0418D1392BC9784D0040F3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0418D1332BC9784D0040F3FB = {
+			isa = PBXGroup;
+			children = (
+				0418D13E2BC9784D0040F3FB /* CanadaEventsApp */,
+				0418D13D2BC9784D0040F3FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0418D13D2BC9784D0040F3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0418D13C2BC9784D0040F3FB /* CanadaEventsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0418D13E2BC9784D0040F3FB /* CanadaEventsApp */ = {
+			isa = PBXGroup;
+			children = (
+				0418D13F2BC9784D0040F3FB /* AppDelegate.swift */,
+				0418D1412BC9784D0040F3FB /* SceneDelegate.swift */,
+				0418D1432BC9784D0040F3FB /* ViewController.swift */,
+				0418D1452BC9784D0040F3FB /* Main.storyboard */,
+				0418D1482BC9784F0040F3FB /* Assets.xcassets */,
+				0418D14A2BC9784F0040F3FB /* LaunchScreen.storyboard */,
+				0418D1552BC97CB00040F3FB /* EventModel.swift */,
+				0418D1532BC97C570040F3FB /* NetworkingService.swift */,
+				0418D14D2BC9784F0040F3FB /* Info.plist */,
+				04F601972BD19F1200C51D9D /* BrowseEventsViewController.swift */,
+				04F601992BD1D87200C51D9D /* EventDetailViewController.swift */,
+				04F6019B2BD1F1BE00C51D9D /* FavoritesManager.swift */,
+				04F6019D2BD1F4A300C51D9D /* MyListViewController.swift */,
+				04F6019F2BD1F63000C51D9D /* FavoritesTableViewCell.swift */,
+			);
+			path = CanadaEventsApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0418D13B2BC9784D0040F3FB /* CanadaEventsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0418D1502BC9784F0040F3FB /* Build configuration list for PBXNativeTarget "CanadaEventsApp" */;
+			buildPhases = (
+				0418D1382BC9784D0040F3FB /* Sources */,
+				0418D1392BC9784D0040F3FB /* Frameworks */,
+				0418D13A2BC9784D0040F3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanadaEventsApp;
+			productName = CanadaEventsApp;
+			productReference = 0418D13C2BC9784D0040F3FB /* CanadaEventsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0418D1342BC9784D0040F3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					0418D13B2BC9784D0040F3FB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 0418D1372BC9784D0040F3FB /* Build configuration list for PBXProject "CanadaEventsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0418D1332BC9784D0040F3FB;
+			productRefGroup = 0418D13D2BC9784D0040F3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0418D13B2BC9784D0040F3FB /* CanadaEventsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0418D13A2BC9784D0040F3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0418D14C2BC9784F0040F3FB /* LaunchScreen.storyboard in Resources */,
+				0418D1492BC9784F0040F3FB /* Assets.xcassets in Resources */,
+				0418D1472BC9784D0040F3FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0418D1382BC9784D0040F3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F6019E2BD1F4A300C51D9D /* MyListViewController.swift in Sources */,
+				0418D1442BC9784D0040F3FB /* ViewController.swift in Sources */,
+				0418D1402BC9784D0040F3FB /* AppDelegate.swift in Sources */,
+				04F601982BD19F1200C51D9D /* BrowseEventsViewController.swift in Sources */,
+				0418D1422BC9784D0040F3FB /* SceneDelegate.swift in Sources */,
+				04F601A02BD1F63000C51D9D /* FavoritesTableViewCell.swift in Sources */,
+				0418D1562BC97CB00040F3FB /* EventModel.swift in Sources */,
+				04F6019A2BD1D87200C51D9D /* EventDetailViewController.swift in Sources */,
+				0418D1542BC97C570040F3FB /* NetworkingService.swift in Sources */,
+				04F6019C2BD1F1BE00C51D9D /* FavoritesManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0418D1452BC9784D0040F3FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0418D1462BC9784D0040F3FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0418D14A2BC9784F0040F3FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0418D14B2BC9784F0040F3FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0418D14E2BC9784F0040F3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0418D14F2BC9784F0040F3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0418D1512BC9784F0040F3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LM4DS9XYWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CanadaEventsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reinamimi.CanadaEventsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0418D1522BC9784F0040F3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LM4DS9XYWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CanadaEventsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reinamimi.CanadaEventsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0418D1372BC9784D0040F3FB /* Build configuration list for PBXProject "CanadaEventsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0418D14E2BC9784F0040F3FB /* Debug */,
+				0418D14F2BC9784F0040F3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0418D1502BC9784F0040F3FB /* Build configuration list for PBXNativeTarget "CanadaEventsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0418D1512BC9784F0040F3FB /* Debug */,
+				0418D1522BC9784F0040F3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0418D1342BC9784D0040F3FB /* Project object */;
+}
